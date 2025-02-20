@@ -1,0 +1,241 @@
+body{
+    margin: 0%;
+}
+.main-container{
+    padding-inline: 100px ;
+    padding-top: 56px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+.nav-links li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px ;   
+}
+.nav-links a:hover{
+     color: white;
+}
+.nav-links  a{
+    text-decoration: none;
+    color: #0A2640;
+}
+.login-button{
+    color:#0A2640;
+     border-radius: 19px;
+     border: 2px solid #0A2640;
+     height: 30px;
+     width: 99px;
+     background:none;
+     cursor: pointer;
+ }
+ .login-button:hover{
+    color: white;
+ }
+.blog{
+    text-align: center;
+    padding-top: 72px ;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.heading{
+    font-size: 48px;
+    line-height: 0;
+    font-family: sans-serif;
+}
+.container1{
+    display: flex;
+    justify-items: center;
+    padding-top: 67px;
+    padding-left: 100px;
+}
+.container2{
+    padding-inline: 92px;
+    padding-top: 110px;
+    font-size: 16px;
+}
+.p{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color{
+    color: #777777;
+    padding-left: 12px;
+}
+.heading1{
+    font-size: 48px;
+    line-height: 72px;
+    font-family: sans-serif;
+    margin: 0;
+}
+.id{
+    padding-top: 20px;
+    padding-bottom: 151px;
+}
+.pfp{
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.hr{
+    padding-inline: 100px;
+    padding-bottom: 96px;
+}
+.container3{
+   padding-inline: 202px;
+}
+.heading2{
+    font-size: 48px;
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+.innerdiv{
+    padding-inline: 202px;
+    display: flex;
+    align-items: center;
+}
+.img{
+   padding-right:50px ;
+}
+.paragraph{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.img2{
+    padding-right:50px ;
+}
+.innerdiv2{
+    padding-top: 80px;
+    padding-inline: 202px;
+    display: flex;
+    align-items: center;
+    margin: 0; 
+}
+.btn{
+    padding-inline: 590px;
+    padding-top: 96px;
+    padding-bottom: 140px;
+
+}
+.btn button{
+    border-radius: 56px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+    background-color: white;
+    padding-block: 16px;
+    padding-inline: 50px;
+}
+.footer{ 
+    background-color: white;
+    padding-inline: 100px;
+}
+footer{ 
+    border-radius: 12px;
+    background-color: #0A2640;
+    color: white;
+    background-image: url(img/bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.heading6{ 
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline:242px;
+    padding-top: 10px ;
+}
+.emailbtn{
+    display: flex;
+    align-items:center;
+    padding-inline: 298px;
+    padding-bottom: 72px;
+}
+.startbtn{
+    margin-left: 10px;
+}
+.email{
+    font: 20px;
+    padding-left:20px ;
+    border-radius: 240px;
+    width: 350px;
+    height: 46px;
+    border: none;
+}
+.startbtn{
+    background-color: #65E4A3;
+    color:#0A2640;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+.container5{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 104px;
+}
+.paragraph7{
+    color: #777777;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 40px;
+    width: 300px;
+} 
+.abc{
+    padding-top: 64px;
+    padding-bottom: 117px;
+    color: #777777;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container6{
+    padding-right: 100px;
+}
+.container7{ 
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 32px;
+} 
+.container7 ul{
+    list-style: none;
+}
+.h{
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom:32px ;
+}
+.container7 ,li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #777777;
+    margin-left:50px ;
+    margin-bottom: 50px;
+}
+.container7 li p{
+    margin-bottom:0%;
+} 
+.container7 button{
+    margin: 10px;
+    font-size: 13px;
+    border:none;
+    border-radius: 20px;
+    background-color: #65E4A3;}
+.button{
+    display: flex;
+    align-items: center;
+} 
+.list1{
+   padding-right: 50px;
+   padding-bottom: 21px;
+}
