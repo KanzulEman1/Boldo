@@ -1,7 +1,9 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-body{
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+body{  
+    font-family: "Manrope", sans-serif; 
     margin: 0;
 }
 header{
@@ -53,8 +55,8 @@ nav{
      padding-top: 64px;
  }
  .container2{
-     padding-right: 139px;
-     padding-bottom: 117px;
+     padding-right: 118px;
+     padding-bottom: 55px;
  }
 .heading{
      font-size: 46px;
@@ -90,10 +92,70 @@ nav{
     padding-top: 56px;
     padding-bottom: 64px;
 }
+.services{
+    text-align: center;
+    padding-top: 84px;
+  
+    font-size: 20px;
+    color: gray;
+}
+.heading2{
+    padding-top: 12px;
+    padding-inline: 279px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+.images{
+    padding-bottom: 24px;
+}
+.homeimg1{
+        padding-right:100px ;
+     
+}
+.homeimg2{
+    padding-right:100px ;
+   
+}
+.imgheading{
+    font-size:24px ;
+   
 
+}
+.title{
+         font-size: 20px;
+         color: #777777;
+         line-height: 32px;    
+}
+.errow{
+    font-size:20px ;
+    padding-top: 28px;
+    color: #0A2640;
+    border-bottom:2px solid #0A2640 ;
+    padding-bottom: 8px;
 
+}
+.container3{
+     padding-top: 80px;
+     padding-inline: 150px;
+     display: flex;
+     align-items: center;
+     margin: 0; 
+     padding-bottom: 197px;
+}
+.container4{
+    display: flex; 
+    align-items: center;
+}
+.img4{
+    padding-inline: 150px;
+}
+.heading3{
+    padding-right: 107px;
+    font-size: 32px;
+    line-height: 56px;
 
-
+}
 /* 
 
  .img{
@@ -101,7 +163,6 @@ nav{
  }
  .paragraph{
      font-size: 20px;
-     font-family: sans-serif;
  }
  .img2{
      padding-right:50px ;
@@ -143,7 +204,6 @@ nav{
      text-align: center;
      font-size: 48px;
      line-height: 72px;
-     font-family: Arial, Helvetica, sans-serif;
      padding-inline:242px;
      padding-top: 10px ;
  }
@@ -180,7 +240,6 @@ nav{
  }
  .paragraph7{
      color: #777777;
-     font-family:Arial, Helvetica, sans-serif;
      font-size: 16px;
      line-height: 28px;
      padding-top: 40px;
@@ -191,7 +250,6 @@ nav{
      padding-bottom: 117px;
      color: #777777;
      font-size: 16px;
-     font-family: Arial, Helvetica, sans-serif;
  }
  .container6{
      padding-right: 100px;
@@ -207,7 +265,6 @@ nav{
  }
  .h{
      color: #000000;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 20px;
      line-height: 32px;
      padding-bottom:32px ;
@@ -216,13 +273,12 @@ nav{
      list-style: none;
      font-size: 20px;
      line-height: 32px;
-     font-family: Arial, Helvetica, sans-serif;
      color:  #777777;
      margin-left:50px ;
      margin-bottom: 50px;
  }
  .container7 li p{
-     margin-bottom:0%;
+     margin-bottom:0;
  } 
  .container7 button{
      margin: 10px;
