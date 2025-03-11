@@ -1,4 +1,10 @@
-body{
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+body{  
+    font-family: "Manrope", sans-serif;
     margin: 0%;
 }
 .main-container{
@@ -38,12 +44,10 @@ nav{
     text-align: center;
     padding-top: 72px ;
     font-size: 20px;
-    font-family: sans-serif;
 }
 .heading{
     font-size: 48px;
     line-height: 0;
-    font-family: sans-serif;
 }
 .container1{
     display: flex;
@@ -58,7 +62,6 @@ nav{
 }
 .p{
     font-size: 18px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .color{
     color: #777777;
@@ -67,17 +70,22 @@ nav{
 .heading1{
     font-size: 48px;
     line-height: 72px;
-    font-family: sans-serif;
     margin: 0;
 }
 .id{
     padding-top: 20px;
     padding-bottom: 151px;
 }
+.class{
+    width: 40px;
+    height: 40px;
+}
+.blog-pic{
+    display: flex;
+}
 .pfp{
     padding-left: 12px;
     font-size: 16px;
-    font-family: sans-serif;
 }
 .hr{
     padding-inline: 100px;
@@ -89,7 +97,6 @@ nav{
 .heading2{
     font-size: 48px;
     margin: 0;
-    font-family: sans-serif;
     padding-bottom: 40px;
 }
 .innerdiv{
@@ -102,7 +109,6 @@ nav{
 }
 .paragraph{
     font-size: 20px;
-    font-family: sans-serif;
 }
 .img2{
     padding-right:50px ;
@@ -144,7 +150,6 @@ footer{
     text-align: center;
     font-size: 48px;
     line-height: 72px;
-    font-family: Arial, Helvetica, sans-serif;
     padding-inline:242px;
     padding-top: 10px ;
 }
@@ -181,7 +186,6 @@ footer{
 }
 .paragraph7{
     color: #777777;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 28px;
     padding-top: 40px;
@@ -192,7 +196,6 @@ footer{
     padding-bottom: 117px;
     color: #777777;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .container6{
     padding-right: 100px;
@@ -208,7 +211,6 @@ footer{
 }
 .h{
     color: #000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     line-height: 32px;
     padding-bottom:32px ;
@@ -217,7 +219,6 @@ footer{
     list-style: none;
     font-size: 20px;
     line-height: 32px;
-    font-family: Arial, Helvetica, sans-serif;
     color:  #777777;
     margin-left:50px ;
     margin-bottom: 50px;
